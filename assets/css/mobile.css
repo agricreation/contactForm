@@ -1,4 +1,14 @@
 @media screen and (max-width : 720px) {
+    p{
+        font-size: calc(.1rem + 1.5vh);
+    }
+    h3{
+        font-size: calc(1.5rem + 2vh) !important;
+    }
+    .img-responcive{
+    width: 100%;
+    height: auto;
+}
     body{  
         height: 160vh;
       background:linear-gradient(160deg, #0F3661, #0F3661 40%, white 40%, white);}  

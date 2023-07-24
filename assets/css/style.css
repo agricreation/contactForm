@@ -1,13 +1,15 @@
 *{
     padding: 0px;
     margin: 0px;
-
     box-sizing: border-box;
 }
 body{  
       height: 100vh;
     background:linear-gradient(160deg, #0F3661, #0F3661 40%, white 40%, white);
-
+}
+.img{
+    display: flex;
+    justify-content: center;
 }
 .red{
     color: red;
@@ -28,7 +30,7 @@ body{
 }
 
 .img-responcive{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .container{
