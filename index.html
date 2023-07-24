@@ -12,23 +12,28 @@
     <link rel="stylesheet" href="./assets/css/mobile.css">
   </head>
   <body>
+
     <div class="container default-font">
-      <div class="flex">
-        <div class="toast">
+      <div class="flex "> 
+        <div class="addToast">
+      
+    </div>
+        <!-- <div class="toast">
           <p>sample toast messages</p>
           <i id="close" onclick="hideToast()" class="close fa-solid fa-xmark"></i>
-        </div>
+        </div> -->
         <div class="flexbox default-font">
           <h3 class="theme-default">Contact</h3>
           <p>Fill Out The Form Below And We'll Get Back To You Shortly.</p>
           <div class="input">
-            <input type="text" placeholder="name" />
-            <input type="email" placeholder="email" />
+            <form action="/" >
+            <input id="names" name="names" type="text" placeholder="name" />
+            <input id="email" name="email" type="email" placeholder="email" />
             <div class="inputSlide">
-              <input type="text" placeholder="Country Code" />
-              <input type="text" placeholder="code" />
+              <input id="countryCode" type="text" placeholder="Country Code" />
+              <input id="phone" type="text" placeholder="Phone" />
             </div>
-            <input type="text" placeholder="number" />
+            <input id="subject" type="text" placeholder="number" />
             <textarea
               placeholder="Messages"
               name="message"
@@ -36,12 +41,13 @@
               cols="30"
               rows="10"
             ></textarea>
+          </form>
             <div class="button">
               <div class="btn button_cancel">
                 <a href="/">Cancel</a>
               </div>
               <div class="btn button_submit">
-                <a href="/">Submit</a>
+                <a onclick="formValidations()">Submit</a>
               </div>
             </div>
           </div>
@@ -85,18 +91,6 @@
         </div>
       </div>
     </div>
-
-    <script>
-      function hideToast(){ 
-        const close =  document.querySelector('.close');
-        const toast = document.querySelector('.toast');
-        // close.style.display = "none"
-        toast.classList.add('toast-out');
-        setTimeout(() => {
-          toast.classList.add('hide');
-        }, 1000);
-        console.log("testing");
-      }
-    </script>
+<script src="./assets/js/script.js"></script>
   </body>
 </html>

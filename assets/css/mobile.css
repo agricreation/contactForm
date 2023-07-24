@@ -9,6 +9,9 @@
     width: 100%;
     height: auto;
 }
+.addToast{
+    width: 100%;
+}
     body{  
         height: 160vh;
       background:linear-gradient(160deg, #0F3661, #0F3661 40%, white 40%, white);}  

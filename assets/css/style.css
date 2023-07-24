@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+a{
+    cursor: pointer;
+}
 body{  
     height: 100vh;
     background:linear-gradient(160deg, #0F3661, #0F3661 40%, white 40%, white);
