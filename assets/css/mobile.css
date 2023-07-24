@@ -1,0 +1,30 @@
+@media screen and (max-width : 720px) {
+    body{  
+        height: 160vh;
+      background:linear-gradient(160deg, #0F3661, #0F3661 40%, white 40%, white);}  
+        .flex{
+            display: flex;
+            /* flex-direction: column-reverse; */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .address, .mail, .whatsapp{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            margin-left: 1vh;
+            margin-right: 1vh;
+            background-color: rgb(255, 255, 255) ;
+            min-width: 20px;
+            min-height: 200px;
+            padding: 20px;
+        }
+        .text-center{
+            text-align: center;
+        }
+        .inputSlide input:first-child{
+            width: 30%;
+        }
+}

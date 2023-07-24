@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+
+    box-sizing: border-box;
+}
+body{  
+      height: 100vh;
+    background:linear-gradient(160deg, #0F3661, #0F3661 40%, white 40%, white);
+
+}
+.red{
+    color: red;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default-font{
+    font-family:Segoe UI;
+}
+h3{
+    font: normal normal 600 44px/58px Segoe UI;
+}
+body{
+    background-color: rgb(65, 65, 65);
+}
+
+.img-responcive{
+    width: 100%;
+    height: auto;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    background-color: rgb(255, 255, 255) ;
+    min-width: 20px;
+    min-height: 200px;
+    padding: 20px;
+    border: 2px solid rgb(0, 166, 255);
+    border-radius: 10px;
+}
+.flex{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: flex-start;
+}
+.theme-default{
+    color: #0F3661;
+    font-size: 44px;
+}
+input, textarea{
+    margin: 5px 0px;
+    padding: 10px 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+.flexbox {
+    padding: 10px;
+  flex: 1;
+
+}
+.input{
+    padding: 5px;
+}
+.inputSlide{
+    display: flex;
+    justify-content: center;
+}
+.inputSlide input:first-child{
+    width: 30%;
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.button_cancel{
+    background-color: rgb(255, 126, 97);
+}
+.button_submit{
+    background-color: rgb(71, 81, 255);
+    margin-left: 10px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 0.5px solid grey;
+    background-color: #ffffff;
+    margin: 10px 10px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact_whatsapp {
+    display: block;
+}
+textarea{
+    min-height: 100px;
+}
