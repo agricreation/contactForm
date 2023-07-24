@@ -37,4 +37,49 @@
         .inputSlide input:first-child{
             width: 30%;
         }
+        .flex{
+            position: relative;
+        }
+        .toast{
+            animation-name: animate;
+            animation-duration: 1s;
+            /* z-index: 1; */
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: red;
+            position: relative;
+            top: 0px;
+            /* left: 0px; */
+            color: white;
+            /* padding: 10px 10px 10px 50px; */
+            border-radius: 0px 0px 0px 0px;
+        }
+        .toast-out{
+            animation-name: toast-out;
+            transition: .5s;
+        }
+        @keyframes toast-out{
+            0%{
+                top: 0px;
+        
+            }
+            100%{
+                top: -100px;
+            }
+        }
+        @keyframes animate{
+            0%{
+                top: -100px;
+        
+            }
+            25%{
+                top: 0px;
+            }
+        }
+        .toast i{
+            padding: 5px 15px;
+            cursor: pointer;
+        }
 }
